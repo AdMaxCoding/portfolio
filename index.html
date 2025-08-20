@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adib Web Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="fanta.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a href="/">Adib M</a>
+        <nav>
+            <a target="_blank" href="https://github.com/AdMaxCoding"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/adib7407"><i class="fa-brands fa-linkedin"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="intro-header">
+                <h1>Hello! My name is Adib...</h1>
+                <p>Software Developer</p>
+            </div>
+            <h5 class="intro-description"">
+                I am a computer engineering student looking for an internship!
+            </h5>
+            <div class="links-container">
+                <i class="fa-solid link-arrow fa-arrow-right"></i>
+                <a target="_blank" href="mailto:mazloumiadib@gmail.com"></i> Email me</a>
+                <a target="_blank" href="https://github.com/AdMaxCoding">GitHub</a>
+                <a target="_blank" href="https://www.linkedin.com/in/adib7407">LinkedIn</a>
+            </div>
+            <div style="display: none;" class="color-div">
+                <h4>Pick a colour</h4>
+                <p style="display: none;">The Page is now ruined...</p>
+                <input type="color" id="color-picker" onchange="" value="#0084ff"/>
+                <button onclick="" style="display: none;">Reset</button>
+            </div>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Javascript</td>
+                        <td>ReactJS | NextJS | NodeJS & ExpressJS</td>
+                    </tr>
+                    <tr>
+                        <td>Web</td>
+                        <td>Firebase | PostgreSQL | Docker | Prisma ORM | RESTful API Development</td>
+                    </tr>
+                    <tr>
+                        <td>Engineering</td>
+                        <td>C programming | Matlab | VHDL | SolidWorks | Digital Logic Design</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Latest Projects</h2>
+            <div class="cards-grid">
+                <div class="project-card">
+                    <div>
+                        <p>June 25th, 2025</p>
+                        <h4>Glucolog - Type 1 Diabetes Tracker</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>ReactJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Firebase Auth</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Firestore</p>
+                            </div>
+                        </div>
+                        <p>A React-based web application for logging and monitoring blood sugar levels, carbohydrate intake, and insulin doses. It features secure user authentication with Firebase, real-time data storage using Firestore, and a responsive design for mobile and desktop.</p>
+                        <div class="project-links">
+                            <a target="_blank" href="https://glucolog.netlify.app">Live</a>
+                            <a target="_blank" href="https://github.com/AdMaxCoding/diabetic-tracker">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img" src="/portfolio/public/tn1.jpg" alt="Glucolog"/>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div>
+                        <p>August 9th, 2025</p>
+                        <h4>Bug Tracker</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NodeJS & ExpressJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>PostgreSQL</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Prisma ORM</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Docker</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>REST Client</p>
+                            </div>
+                        </div>
+                        <p>A back-end application for managing software issues and projects. Built with Node.js and Express.js, it uses PostgreSQL with Prisma ORM for data storage and JWT authentication for secure user access. The API follows RESTful principles and is containerized with Docker for easy deployment and scalability.</p>
+                        <div class="project-links">
+                            
+                            <a target="_blank" href="https://github.com/AdMaxCoding/bug-tracker">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img" src="/portfolio/public/tn2.png" alt="bug-tracker"/>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div>
+                        <p>June 10th, 2025</p>
+                        <h4>Movie Review's Blog</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Markdown SSG</p>
+                            </div>
+                        </div>
+                        <p>A static movie review site built with Next.js 14 using Markdown-based content and static site generation. Pages are pre-rendered for fast load times and SEO, with a client-side search bar. Styled with lightweight CSS and deployed on Netlify, using gray-matter and markdown-to-jsx for the content pipeline.</p>
+                        <div class="project-links">
+                            <a target="_blank" href="https://adibsmovies.netlify.app/">Live</a>
+                            <a target="_blank" href="https://github.com/AdMaxCoding/static-blog">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img" src="/portfolio/public/tn3.jpg" alt="Adib's Movie Reviews"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer> 
+        <p>Check out the repo on <a target="_blank" href="">GitHub</a></p>
+    </footer>
+    <script></script>
+</body>
+</html>
